@@ -1,5 +1,14 @@
 # Change log
 
+## 3.5.5
+
+* Fixed the issue with restore. When loading a backup file as a computer file, the error "An error occurred while performing the operation" occurred. (Bug 80461).
+
+## 3.5.4
+
+* Fixed the issue when the /controlpanel/https page crashes with the 502 error after restarting the container. (Bug 71794).
+* Fixed the issue with machinekey substitution. (Bug 71456).
+
 ## 3.5.3
 
 * Fixed the issue with missing the link to download the temporary Backup file after refreshing the page. (Bug 70341).
